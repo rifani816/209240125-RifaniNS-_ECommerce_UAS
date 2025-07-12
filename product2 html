@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifani Fahion - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rifani Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Produk</a></li> <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-page">
+        <section class="product-detail">
+            <div class="product-image-container">
+                <img src="product 2.png" alt="Dress Santai Wanita">
+            </div>
+            <div class="product-info">
+                <h2>Dress Santai Wanita</h2>
+                <p class="price">Rp 170.000</p>
+                <p class="description">
+                    Dress Santai Wanita adalah pilihan sempurna untuk gaya yang nyaman dan effortless sepanjang hari. Dirancang dengan potongan longgar dan bahan yang ringan seperti katun atau rayon, dress ini memastikan kamu tetap adem dan leluasa bergerak.
+
+Cocok untuk berbagai aktivitas kasual, mulai dari bersantai di rumah, jalan-jalan sore, hingga liburan. Padukan dengan sandal favoritmu untuk tampilan yang rileks, atau tambahkan sedikit aksesori untuk sentuhan gaya yang lebih manis. Dress santai adalah definisi dari gaya chic tanpa usaha yang wajib ada di setiap lemari pakaian.
+                </p>
+                </ul>
+                <button class="buy-button">Beli Sekarang</button>
+            
+    <footer>
+        <p>&copy; 2025 Rifani Fashion. Semua hak dilindungi.</p>
+        <p>Email: info@rifanifashion.com</a> | Telepon: +838-2919-3845</a></p>
+        <p>Alamat: Jl. Ciwalen Kec Garut Kota, Jawa Barat, Indonesia</p>
+    </footer>
+</body>
+</html>

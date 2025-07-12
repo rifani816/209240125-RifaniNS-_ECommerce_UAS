@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifani Fahion - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Serba Ada</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Produk</a></li> <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-page">
+        <section class="product-detail">
+            <div class="product-image-container">
+                <img src="product 1.jpg" alt="Kaos Basic Pria">
+            </div>
+            <div class="product-info">
+                <h2>Kaos Basic Pria</h2>
+                <p class="price">Rp 85.000</p>
+                <p class="description">
+                    Kaos basic pria adalah esensi dari kenyamanan dan keserbagunaan untuk gaya kasual harianmu. Dibuat dari bahan katun premium yang lembut dan breathable, kaos ini menawarkan potongan reguler yang pas di badan tanpa membatasi gerak.
+
+Tersedia dalam berbagai pilihan warna solid yang netral, kaos basic ini sangat mudah dipadukan. Cocok dipakai sendiri untuk tampilan santai, atau sebagai lapisan dalam yang nyaman di bawah kemeja, jaket, atau hoodie favoritmu. Ini adalah item wajib yang tak lekang oleh waktu, siap menemani segala aktivitasmu, dari bersantai di rumah hingga hangout bersama teman.
+                </p>
+                </ul>
+                <button class="buy-button">Beli Sekarang</button>
+            
+    <footer>
+        <p>&copy; 2025 Toko Serba Ada. Semua hak dilindungi.</p>
+        <p>Email: info@rifanifashion.com</a> | Telepon: <a href="tel: +838-2919-3845</a></p>
+        <p>Alamat: Jl. Ciwalen Kec Garut Kota, Jawa Barat, Indonesia</p>
+    </footer>
+</body>
+</html>

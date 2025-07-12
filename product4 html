@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifani Fahion - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rifani Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Produk</a></li> <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-page">
+        <section class="product-detail">
+            <div class="product-image-container">
+                <img src="product 4.jpg" alt="Celana Kulot Wanita">
+            </div>
+            <div class="product-info">
+                <h2>Celana Kulot Wanita</h2>
+                <p class="price">Rp 110.000</p>
+                <p class="description">
+                    Celana kulot wanita adalah pilihan fashion yang chic, nyaman, dan modern untuk berbagai kesempatan. Dikenal dengan potongannya yang lebar dan mengalir dari pinggang hingga pergelangan kaki atau betis, celana ini memberikan siluet yang elegan sekaligus kenyamanan maksimal.
+
+Terbuat dari berbagai jenis bahan, mulai dari linen yang ringan, katun yang lembut, hingga scuba yang jatuh, celana kulot cocok untuk gaya santai hingga semi-formal. Padukan dengan blus feminin untuk tampilan kantor yang stylish, atau kaos basic dan sneakers untuk gaya kasual saat hangout. Celana kulot adalah kunci untuk menciptakan tampilan yang stylish tanpa mengorbankan kenyamanan.
+                </p>
+                </ul>
+                <button class="buy-button">Beli Sekarang</button>
+            
+    <footer>
+        <p>&copy; 2025 Rifani Fashion. Semua hak dilindungi.</p>
+        <p>Email: info@rifanifashion.com</a> | Telepon: +838-2919-3845</a></p>
+        <p>Alamat: Jl. Ciwalen Kec Garut Kota, Jawa Barat, Indonesia</p>
+    </footer>
+</body>
+</html>

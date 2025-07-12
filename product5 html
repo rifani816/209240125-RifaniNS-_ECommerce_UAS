@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifani Fahion - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rifani Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Produk</a></li> <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-page">
+        <section class="product-detail">
+            <div class="product-image-container">
+                <img src="product 3.jpg" alt="Jaket Bomber">
+            </div>
+            <div class="product-info">
+                <h2>Jaket Bomber</h2>
+                <p class="price">Rp 250.000</p>
+                <p class="description">
+                    Jaket Bomber adalah pilihan gaya yang ikonik, serbaguna, dan tak lekang oleh waktu, cocok untuk menyempurnakan berbagai penampilan. Awalnya dirancang untuk pilot, jaket ini kini menjadi fashion staple yang wajib dimiliki karena siluetnya yang khas dan kemampuannya untuk beradaptasi dengan gaya kasual hingga semi-formal.
+
+Didesain dengan ciri khas garis leher, manset, dan pinggang berusuk, jaket bomber seringkali dilengkapi ritsleting depan dan kantong di bagian lengan atau samping. Terbuat dari berbagai material seperti nilon, satin, katun, atau kulit, jaket ini memberikan lapisan ekstra kehangatan dan tampilan yang stylish tanpa usaha. Padukan dengan kaos dan jeans untuk gaya santai sehari-hari, atau dengan kemeja untuk sentuhan yang lebih rapi. Jaket bomber adalah investasi fashion yang akan selalu relevan di setiap musim.
+                </p>
+                </ul>
+                <button class="buy-button">Beli Sekarang</button>
+            
+    <footer>
+        <p>&copy; 2025 Rifani Fashion. Semua hak dilindungi.</p>
+        <p>Email: info@rifanifashion.com</a> | Telepon: +838-2919-3845</a></p>
+        <p>Alamat: Jl. Ciwalen Kec Garut Kota, Jawa Barat, Indonesia</p>
+    </footer>
+</body>
+</html>

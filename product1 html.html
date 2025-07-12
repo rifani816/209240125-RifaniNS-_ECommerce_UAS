@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifani Fahion - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rifani Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Produk</a></li> <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="cart-items">
+            <div class="cart-item">
+                <img src="product 1.jpg" class="item-image" alt="Kaos Basic Pria">
+                <div class="item-details">
+                    <h3>Kaos Basic Pria</h3>
+                    <p>Harga: Rp 85.000</p>
+            </div>
+                <p class="description">
+                    Kaos Basic Pria adalah esensi dari kenyamanan dan keserbagunaan untuk gaya kasual harianmu. Dibuat dari bahan katun premium yang lembut dan breathable, kaos ini menawarkan potongan reguler yang pas di badan tanpa membatasi gerak.
+
+Tersedia dalam berbagai pilihan warna solid yang netral, kaos basic ini sangat mudah dipadukan. Cocok dipakai sendiri untuk tampilan santai, atau sebagai lapisan dalam yang nyaman di bawah kemeja, jaket, atau hoodie favoritmu. Ini adalah item wajib yang tak lekang oleh waktu, siap menemani segala aktivitasmu, dari bersantai di rumah hingga hangout bersama teman.
+                    <div class="quantity-controls">
+                        <button onclick="updateQuantity(this, -1)">-</button>
+                        <span>0</span>
+                        <button onclick="updateQuantity(this, 1)">+</button>
+                    </div>
+                </div>
+                <button onclick="removeItem(this)">Hapus</button>
+
+    <script>
+        function updateQuantity(button, change) {
+            const quantityElement = button.parentElement.querySelector('span');
+            let quantity = parseInt(quantityElement.textContent);
+            quantity += change;
+            
+            if (quantity < 0) quantity = 0;
+            
+            quantityElement.textContent = quantity;
+            updateTotals();
+        }
+
+        function removeItem(button) {
+            const item = button.closest('.cart-item');
+            item.remove();
+            updateTotals();
+        }
+
+        function updateTotals() {
+            let subtotal = 0;
+            
+            document.querySelectorAll('.cart-item').forEach(item => {
+                const price = parseInt(item.querySelector('p').textContent.replace(/\D/g,''));
+                const quantity = parseInt(item.querySelector('.quantity-controls span').textContent);
+                subtotal += price * quantity;
+            });
+
+            const tax = subtotal * 0.1;
+            const total = subtotal + tax;
+
+            document.getElementById('subtotal').textContent = subtotal.toLocaleString();
+            document.getElementById('tax').textContent = tax.toLocaleString();
+            document.getElementById('total').textContent = total.toLocaleString();
+        }
+    </script>
+</body>
+</html>
+
+<main>
+        <section id="Keranjang" class="hero">
+            <div class="container">
+            <!-- Keranjang -->
+        <div class="cart-summary">
+            <h2>Keranjang Belanja</h2>
+            <p>Subtotal: Rp <span id="subtotal">0</span></p>
+            <p>Pajak (10%): Rp <span id="tax">0</span></p>
+            <p>Total: Rp <span id="total">0</span></p>
+    </section>
+    </div>
+            
+    <footer>
+        <p>&copy; 2025 Rifani Fashion. Semua hak dilindungi.</p>
+        <p>Email: info@rifanifashion.com</a> | Telepon: +838-2919-3845</a></p>
+        <p>Alamat: Jl. Ciwalen Kec Garut Kota, Jawa Barat, Indonesia</p>
+    </footer>
+</body>
+</html>

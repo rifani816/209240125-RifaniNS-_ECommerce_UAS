@@ -1,0 +1,94 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifani Fashion - Home</title>
+    <link rel="stylesheet" href="css/style.css"> [cite: 34, 69]
+</head>
+<body>
+    <header>
+        <h1>Rifani Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Koleksi Terbaru Kami</h2>
+        <section class="product-list">
+            <div class="product-item">
+                <img src="product 1.jpg" alt="Kaos Basic Pria">
+                <h3>Kaos Basic Pria</h3>
+                <p class="price">Rp 85.000</p>
+                <p class="short-desc">Minimalis dan serbaguna, cocok untuk berbagai gaya dan kesempatan..</p>
+                <a href="product1_detail.html" class="button">Lihat Detail</a>
+            </div>
+            <div class="product-item">
+                <img src="product 2.png" alt="Dress Santai Wanita">
+                <h3>Dress Santai Wanita</h3>
+                <p class="price">Rp 170.000</p>
+                <p class="short-desc">Cocok untuk dipakai sehari-hari atau saat bersantai..</p>
+                <a href="product2_detail.html" class="button">Lihat Detail</a>
+            </div>
+            <div class="product-item">
+                <img src="product 3.jpg" alt="Kemeja Flanel Unisex">
+                <h3>Kemeja Flanel Unisex</h3>
+                <p class="price">Rp 150.000</p>
+                <p class="short-desc">Gaya klasik, cocok untuk semua.</p>
+                <a href="product3_detail.html" class="button">Lihat Detail</a>
+            </div>
+            <div class="product-item">
+                <img src="product 4.jpg" alt="Celana Kulot Wanita">
+                <h3>Celana Jeans Slim Fit</h3>
+                <p class="price">Rp 110.000</p>
+                <p class="short-desc">Cocok untuk berbagai kesempatan, mulai dari tampilan kasual sehari-hari hingga semi-formal, tergantung pada bahan dan cara padu padannya..</p>
+                <a href="product4_detail.html" class="button">Lihat Detail</a>
+            </div>
+            <div class="product-item">
+                <img src="product 5.jpg" alt="Jaket Bomber">
+                <h3>Jaket Denim Oversized</h3>
+                <p class="price">Rp 250.000</p>
+                <p class="short-desc">fashion item kasual yang populer, seringkali memberikan kesan sporty atau edgy..</p>
+                <a href="product5_detail.html" class="button">Lihat Detail</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rifani Fashion. Semua Hak Cipta Dilindungi.</p>
+        <p>Email: info@rifanifashion.com | Telepon: +62 838-2919-3845 | Alamat: Jl. Ciwalen Kec Garut Kota</p> [cite: 24]
+    </footer>
+</body>
+</html>
+
+    <main class="contact-page">
+        <h2>Hubungi Kami</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required> [cite: 30]
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> [cite: 30]
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea> [cite: 30]
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+        <p class="note">Catatan: Formulir ini hanya tampilan dan tidak mengirimkan data.</p> [cite: 31]
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Toko Baju Kita. Semua Hak Cipta Dilindungi.</p>
+        <p>Email: info@tokobajukita.com | Telepon: +62 812-3456-7890 | Alamat: Jl. Contoh No. 123, Bandung</p>
+    </footer>
+</body>
+</html>
